@@ -3,7 +3,7 @@ function checkAnswer() {
 	const correct = "szeretlek";
 
 	if (input === correct) {
-		window.location.href = "CHANGETHIS.html";
+		window.location.href = "index2.html";
 	} else {
 		document.getElementById("error").innerText = "blud thought that was the word";
 	}
